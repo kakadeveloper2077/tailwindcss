@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Login Screen</title>
+</head>
+
+<body class="bg-blue-900 text-white font-sans text-7xl text-center">
+    <h1 class="text-9xl">Login</h1><br>
+    <input class="bg-gray-200 placeholder-zinc-600 shadow-2xl p-3 text-black rounded-2xl outline-0" id="_username"
+        type="text" placeholder="username" required><br><br>
+    <input class="bg-gray-200 placeholder-zinc-600 shadow-2xl p-3 text-black rounded-2xl outline-0" id="_password"
+        type="password" placeholder="password" required><br><br>
+    <button type="submit" class="bg-gray-200 p-6 rounded-b-xl hover:shadow-2xl hover:cursor-pointer text-gray-500 outline-0"
+        onclick="verify()">Login to account</button>
+</body>
+
+<script>
+    function verify() {
+        let _usr = window.document.getElementById("_username").value;
+        let _pwd = window.document.getElementById("_password").value;
+        if(_usr == ""){
+            return window.alert("por favor, insira o seu nome de usuário.");
+        } if(_pwd == ""){
+            return window.alert("por favor, insira o sua senha.");
+        } else {
+            return window.alert("bem vindo devolta.")
+        }
+    }
+</script>
+
+</html>
