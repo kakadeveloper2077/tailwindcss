@@ -1,1 +1,1 @@
-# tailwindcss
+💠 Tailwindcss, a CSS framework, which works using utility classes, and what is that? Utility classes are classes made for Tailwind use when the developer wants, for example, to change some value, of a single HTML element or several, and in these classes, each one has predefined values ​​and properties, contained in a CSS class, but with a different name.
